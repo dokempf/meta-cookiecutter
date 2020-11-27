@@ -5,4 +5,4 @@ For information on the license, see LICENSE.md.
 {% endif %}
 
 * {{ cookiecutter.full_name }}, 2020
-{% end raw %}
+{% endraw %}

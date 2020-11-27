@@ -1,5 +1,6 @@
 {
     "project_name": "My Project",
     "project_slug": "{% raw %}{{ cookiecutter.project_name|slugify }}{% endraw %}",
+    "full_name": "Your Name",
     "license": ["MIT", "None"]
 }
