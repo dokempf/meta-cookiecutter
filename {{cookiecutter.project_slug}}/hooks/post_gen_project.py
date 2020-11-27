@@ -4,3 +4,8 @@
 #
 # An example of a post-hook would be to remove parts of the project
 # directory tree based on some configuration values.
+
+import os
+
+if "{{ cookiecutter.license }}" == "None":
+    os.remove("LICENSE.md")
