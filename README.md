@@ -20,6 +20,10 @@ Meta-cookiecutter only requires [cookiecutter](https://github.com/cookiecutter/c
 pip install cookiecutter
 ```
 
+The versioning of meta-cookiecutter tries to express the compatibility with versions of cookiecutter:
+Major and minor version of meta-cookiecutter and cookiecutter should match, where as they may choose
+individual versioning for patch releases.
+
 # Create your own cookiecutter
 
 You can simply try meta-cookiecutter by doing:
