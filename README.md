@@ -6,7 +6,7 @@ This is a template repository for the [cookiecutter](https://github.com/cookiecu
 that allows you to quickly set up your own cookiecutters!
 
 This is similar to [cookiecutter-template](https://github.com/eviweb/cookiecutter-template), but
-covers some holes:
+covers some additional aspects that are important for my work:
 
 * Up to date with later versions of cookiecutter
 * Allows license selection
