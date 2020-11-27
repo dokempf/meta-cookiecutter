@@ -3,5 +3,8 @@
     "project_slug": "{{ cookiecutter.project_name|slugify }}",
     "full_name": "Your Name",
     "github_name": "yourgithub",
-    "license": ["MIT", "None"]
+    "license": ["MIT", "None"],
+    "_copy_without_render": [
+        "{{cookiecutter.project_slug}}"
+    ]
 }
