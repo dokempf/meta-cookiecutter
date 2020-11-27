@@ -1,4 +1,4 @@
-** WORK IN PROGRESS **
+[![CI Status](https://travis-ci.com/dokempf/meta-cookiecutter.svg?branch=master)](https://travis-ci.com/dokempf/meta-cookiecutter.svg?branch=master)
 
 # Meta-cookiecutter - a cookiecutter for cookiecutters!
 
