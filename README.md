@@ -9,8 +9,7 @@ This is similar to [cookiecutter-template](https://github.com/eviweb/cookiecutte
 covers some additional aspects that are important for my work:
 
 * Up to date with later versions of cookiecutter
-* Allows license selection
-* Also applies minimal assumptions on the project that the created cookiecutter creates: It should have a license
+* Automatically adds license selection to the generated cookiecutter
 * Slightly different set of configuration values tuned to my needs
 # Prerequisites
 
@@ -45,10 +44,3 @@ personalized default values.
 * `project_slug` is the slug for the generated cookiecutter
 * `full_name` is the cookiecutter's author's full name
 * `github_name` is the github account this is published on (currently assuming this to happen)
-* `license` allows a selection of the following:
-  * MIT:
-  * None - this removes the license file from the repository
-
-  Note that this is about the license of the generated cookiecutter, not of the projects
-  that this cookiecutter itself generates, although the same prompt is automatically added
-  for these projects.
