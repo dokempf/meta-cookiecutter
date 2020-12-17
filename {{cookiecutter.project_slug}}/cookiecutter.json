@@ -1,6 +1,11 @@
 {
     "project_name": "My Project",
+{%- if cookiecutter.git_setup == "Yes" %}
+    "remote_url": "None",
+    "project_slug": "{% raw %}{%- if cookiecutter.remote_url == 'None' -%}{{ cookiecutter.project_name|replace('+', 'p')|slugify }}{% else %}{{ cookiecutter.remote_url.split('/')[-1]|replace('.git', '')}}{%- endif -%}{% endraw %}",
+{%- else %}
     "project_slug": "{% raw %}{{ cookiecutter.project_name|slugify }}{% endraw %}",
+{%- endif %}
     "full_name": "Your Name",
     "license": ["MIT", "BSD-2", "GPL-3.0", "LGPL-3.0", "None"]
 }
