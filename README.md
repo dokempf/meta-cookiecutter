@@ -1,4 +1,4 @@
-[![CI Status](https://travis-ci.com/dokempf/meta-cookiecutter.svg?branch=master)](https://travis-ci.com/dokempf/meta-cookiecutter.svg?branch=master)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dokempf/meta-cookiecutter/CI)](https://github.com/dokempf/meta-cookiecutter/actions?query=workflow%3ACI)
 
 # Meta-cookiecutter - a cookiecutter for cookiecutters!
 
@@ -44,3 +44,4 @@ personalized default values.
 * `project_slug` is the slug for the generated cookiecutter
 * `full_name` is the cookiecutter's author's full name
 * `github_name` is the github account this is published on (currently assuming this to happen)
+* `git_setup`: Whether the generated cookiecutter should include a git setup.
