@@ -10,7 +10,8 @@ covers some additional aspects that are important for my work:
 
 * Up to date with later versions of cookiecutter
 * Automatically adds license selection to the generated cookiecutter
-* Slightly different set of configuration values tuned to my needs
+* Optionally generates cookiecutters that perform a Git repository setup
+
 # Prerequisites
 
 Meta-cookiecutter only requires [cookiecutter](https://github.com/cookiecutter/cookiecutter) itself, which can be installed with:
